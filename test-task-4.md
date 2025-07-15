@@ -16,3 +16,12 @@
 
 ## 결과
 테스트 작업이 성공적으로 완료되었습니다.
+
+## 참고사항
+- 작업 완료 후 커밋 완료 (commit: b4ce45f)
+- GitHub 인증 환경 변수 설정 필요 (GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY_PATH, GITHUB_APP_INSTALLATION_ID)
+- 환경 변수 설정 후 다음 명령으로 PR 생성 가능:
+  ```bash
+  git push origin feature/task-4-test
+  gh pr create --title "feat: Task 4 - 테스트 작업 완료" --body "테스트 작업 완료 관련 문서 추가"
+  ```
