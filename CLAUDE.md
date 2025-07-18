@@ -24,13 +24,13 @@
 2. **Access Token 발급**:
 
    ```bash
-   ACCESS_TOKEN=$(curl -s -X POST -H "Authorization: Bearer $JWT_TOKEN" \
-     https://api.github.com/app/installations/$GITHUB_APP_INSTALLATION_ID/access_tokens | jq -r '.token')
+   curl -s -X POST -H "Authorization: Bearer $JWT_TOKEN" \
+     https://api.github.com/app/installations/$GITHUB_APP_INSTALLATION_ID/access_tokens | jq -r '.token' > /tmp/claude-coder-01-token.txt
    ```
 
 3. **GitHub CLI 로그인**:
    ```bash
-   echo "$ACCESS_TOKEN" | gh auth login --with-token
+   gh auth login --with-token < /tmp/claude-coder-01-token.txt
    ```
 
 - **인증 결과**: `claude-coder-01[bot]`로 로그인
