@@ -22,6 +22,19 @@ ai-devteam-test/
 └── README.md         # 프로젝트 설명 문서
 ```
 
+## 기술 스택
+
+### Frontend
+- **프레임워크**: React 18 + Vite
+- **언어**: TypeScript
+- **라우팅**: React Router DOM
+- **스타일링**: Tailwind CSS + ShadCN UI
+- **상태관리**: Zustand + TanStack Query
+- **HTTP 클라이언트**: Axios + Zod
+- **테스팅**: Vitest + React Testing Library + Playwright
+- **개발 도구**: ESLint, Prettier, Husky, Storybook
+- **배포**: Vercel or Netlify
+
 ## 환경 설정
 
 ### GitHub App 인증
