@@ -45,6 +45,11 @@ coverage/
 dist/
 build/
 out/
+*.js
+*.d.ts
+*.js.map
+!jest.config.js
+!eslint.config.js
 
 # Temporary files
 tmp/
@@ -53,3 +58,6 @@ temp/
 # GitHub App private keys (보안상 중요)
 *.pem
 private-key.*
+
+# TypeScript cache
+*.tsbuildinfo
