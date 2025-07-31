@@ -37,11 +37,6 @@ ai-devteam-test/
 
 ## 환경 설정
 
-### GitHub App 인증
-이 프로젝트는 GitHub App을 통해 인증하며, 다음 환경변수가 필요합니다:
-- `GITHUB_APP_ID`: GitHub App ID
-- `GITHUB_APP_PRIVATE_KEY_PATH`: GitHub App Private Key 파일 경로
-- `GITHUB_APP_INSTALLATION_ID`: GitHub App Installation ID
 
 ## 작업 흐름
 1. GitHub Projects 보드에 새로운 작업을 추가합니다
