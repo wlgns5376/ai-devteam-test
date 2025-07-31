@@ -53,3 +53,6 @@ temp/
 # GitHub App private keys (보안상 중요)
 *.pem
 private-key.*
+
+# Claude local configuration
+CLAUDE.local.md
