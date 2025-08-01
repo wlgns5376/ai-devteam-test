@@ -43,8 +43,10 @@ coverage/
 
 # Build outputs
 dist/
+dist-ssr/
 build/
 out/
+*.local
 
 # Temporary files
 tmp/
