@@ -16,7 +16,6 @@ GitHub Projects 보드에서 이 저장소에 관련된 일감을 받아와서 �
 ```
 ai-devteam-test/
 ├── .github/          # GitHub 관련 설정
-│   └── bin/          # GitHub App 인증 스크립트
 ├── .taskmaster/      # Task Master 설정
 ├── CLAUDE.md         # Claude Code 작업 가이드라인
 └── README.md         # 프로젝트 설명 문서
