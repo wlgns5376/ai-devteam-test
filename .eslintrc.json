@@ -4,6 +4,7 @@
     "browser": true,
     "es2020": true
   },
+  "ignorePatterns": ["node_modules", "dist", "build", "*.config.js", "*.config.ts"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
