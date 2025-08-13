@@ -13,11 +13,6 @@ describe('Home 페이지', () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it('설명 텍스트가 올바르게 렌더링되어야 한다', () => {
-    const description = screen.getByText(HOME_PAGE_CONTENT.DESCRIPTION);
-    expect(description).toBeInTheDocument();
-  });
-
   it('서비스 설명 텍스트가 올바르게 렌더링되어야 한다', () => {
     const serviceDescription = screen.getByText(HOME_PAGE_CONTENT.SERVICE_DESCRIPTION);
     expect(serviceDescription).toBeInTheDocument();

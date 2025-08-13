@@ -6,9 +6,6 @@ function Home() {
       <h1 className="text-3xl font-bold text-gray-800 mb-4">
         {HOME_PAGE_CONTENT.TITLE}
       </h1>
-      <p className="text-gray-600">
-        {HOME_PAGE_CONTENT.DESCRIPTION}
-      </p>
       <p className="text-gray-700 mt-4">
         {HOME_PAGE_CONTENT.SERVICE_DESCRIPTION}
       </p>
