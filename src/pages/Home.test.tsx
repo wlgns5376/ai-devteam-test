@@ -18,4 +18,13 @@ describe('Home 페이지', () => {
     );
     expect(description).toBeInTheDocument();
   });
+
+  it('서비스 설명 텍스트가 올바르게 렌더링되어야 한다', () => {
+    render(<Home />);
+
+    const serviceDescription = screen.getByText(
+      'Claude Code와 Gemini CLI 같은 터미널 기반 서비스를 이용한 프로그램 개발 자동화 시스템'
+    );
+    expect(serviceDescription).toBeInTheDocument();
+  });
 });
