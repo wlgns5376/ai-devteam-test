@@ -7,6 +7,10 @@ function Home() {
       <p className="text-gray-600">
         React + TypeScript + Vite 환경이 성공적으로 구성되었습니다.
       </p>
+      <p className="text-gray-600 mt-4">
+        Claude Code와 Gemini CLI 같은 터미널 기반 서비스를 이용한 프로그램 개발
+        자동화 시스템
+      </p>
     </div>
   );
 }
