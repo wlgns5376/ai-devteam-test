@@ -4,7 +4,7 @@ function KeyFeaturesSection() {
   return (
     <section className="mt-16">
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-        주요 기능
+        {HOME_PAGE_CONTENT.KEY_FEATURES_TITLE}
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {HOME_PAGE_CONTENT.KEY_FEATURES.map((feature) => (

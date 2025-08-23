@@ -4,7 +4,7 @@ function WorkflowSection() {
   return (
     <section className="mt-16">
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-        워크플로우
+        {HOME_PAGE_CONTENT.WORKFLOW_TITLE}
       </h2>
       <div className="bg-white rounded-lg shadow-md p-8">
         <ol className="space-y-4">
