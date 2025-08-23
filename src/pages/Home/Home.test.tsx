@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect, beforeEach } from 'vitest';
 import Home from './Home';
-import { HOME_PAGE_CONTENT } from './constants';
+import { HOME_PAGE_CONTENT } from '../constants';
 
 describe('Home 페이지', () => {
   beforeEach(() => {
