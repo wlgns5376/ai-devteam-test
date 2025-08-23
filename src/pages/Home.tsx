@@ -41,7 +41,7 @@ function Home() {
           <div className="bg-white rounded-lg shadow-md p-8">
             <ol className="space-y-4">
               {HOME_PAGE_CONTENT.WORKFLOW_STEPS.map((step, index) => (
-                <li key={`workflow-step-${index}`} className="flex items-start">
+                <li key={step} className="flex items-start">
                   <span className="flex-shrink-0 w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-semibold mr-4">
                     {index + 1}
                   </span>
