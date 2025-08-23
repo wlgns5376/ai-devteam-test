@@ -6,6 +6,9 @@ export default defineConfig({
   resolve: {
     conditions: ['development', 'browser'],
   },
+  define: {
+    'process.env.NODE_ENV': '"test"',
+  },
   test: {
     globals: true,
     environment: 'jsdom',
