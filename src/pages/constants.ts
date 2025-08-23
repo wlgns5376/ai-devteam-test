@@ -30,12 +30,12 @@ export const HOME_PAGE_CONTENT = {
     },
   ],
   WORKFLOW_STEPS: [
-    '1. Planner가 TODO 작업 식별',
-    '2. Manager가 사용 가능한 Worker에 작업 할당',
-    '3. Worker가 작업 공간 및 Git worktree 생성',
-    '4. AI 개발자가 코드 생성 및 PR 생성',
-    '5. 작업 상태를 IN_REVIEW로 업데이트',
-    '6. 자동 PR 리뷰 및 병합',
+    'Planner가 TODO 작업 식별',
+    'Manager가 사용 가능한 Worker에 작업 할당',
+    'Worker가 작업 공간 및 Git worktree 생성',
+    'AI 개발자가 코드 생성 및 PR 생성',
+    '작업 상태를 IN_REVIEW로 업데이트',
+    '자동 PR 리뷰 및 병합',
   ],
   ARCHITECTURE_COMPONENTS: [
     {

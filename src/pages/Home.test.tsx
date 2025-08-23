@@ -42,8 +42,7 @@ describe('Home 페이지', () => {
 
     it('모든 워크플로우 단계가 렌더링되어야 한다', () => {
       HOME_PAGE_CONTENT.WORKFLOW_STEPS.forEach((step) => {
-        const stepText = step.replace(/^\d+\.\s*/, '');
-        expect(screen.getByText(stepText)).toBeInTheDocument();
+        expect(screen.getByText(step)).toBeInTheDocument();
       });
     });
   });
