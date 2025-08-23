@@ -24,7 +24,9 @@ function Home() {
                 key={feature.title}
                 className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="text-4xl mb-4">{feature.icon}</div>
+                <div className="text-4xl mb-4" aria-hidden="true">
+                  {feature.icon}
+                </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   {feature.title}
                 </h3>
@@ -41,7 +43,7 @@ function Home() {
           <div className="bg-white rounded-lg shadow-md p-8">
             <ol className="space-y-4">
               {HOME_PAGE_CONTENT.WORKFLOW_STEPS.map((step, index) => (
-                <li key={step} className="flex items-start">
+                <li key={`${step}-${index}`} className="flex items-start">
                   <span className="flex-shrink-0 w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-semibold mr-4">
                     {index + 1}
                   </span>
@@ -81,8 +83,8 @@ function Home() {
                 시스템 요구사항
               </h3>
               <ul className="space-y-2">
-                {HOME_PAGE_CONTENT.SYSTEM_REQUIREMENTS.map((req) => (
-                  <li key={req} className="flex items-center">
+                {HOME_PAGE_CONTENT.SYSTEM_REQUIREMENTS.map((req, index) => (
+                  <li key={`${req}-${index}`} className="flex items-center">
                     <CheckIcon />
                     <span className="text-gray-700">{req}</span>
                   </li>
@@ -94,8 +96,8 @@ function Home() {
                 배포 옵션
               </h3>
               <ul className="space-y-2">
-                {HOME_PAGE_CONTENT.DEPLOYMENT_OPTIONS.map((option) => (
-                  <li key={option} className="flex items-center">
+                {HOME_PAGE_CONTENT.DEPLOYMENT_OPTIONS.map((option, index) => (
+                  <li key={`${option}-${index}`} className="flex items-center">
                     <CheckIcon className="w-5 h-5 text-blue-500 mr-2" />
                     <span className="text-gray-700">{option}</span>
                   </li>
