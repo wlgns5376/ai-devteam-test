@@ -6,7 +6,7 @@ describe('App 컴포넌트', () => {
   it('Home 페이지가 기본 경로에서 렌더링되어야 한다', () => {
     render(<App />);
 
-    const heading = screen.getByText('AI DevTeam Test 프로젝트');
+    const heading = screen.getByText('AI DevTeam Node');
     expect(heading).toBeInTheDocument();
   });
 });
